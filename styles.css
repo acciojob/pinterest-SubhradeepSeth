@@ -4,7 +4,7 @@
 	padding:0px;
 	box-sizing:border-box;
 }
-.container{
+.hero{
 	display:flex;
 	justify-content:center;
 	align-items:center;
