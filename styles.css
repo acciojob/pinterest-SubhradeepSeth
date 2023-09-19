@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:800px;
+}
+.img img{
+	object-fit:cover;
+	height:204px;
+	width:456px;
+}
+.img{
+	flex:3;
+}
+.description{
+	text-align:center;
+	display:flex;
+	flex:2;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	padding:20px;
+}
+.description h1{
+	margin-bottom:10px;
+}
+.description button{
+	margin-top:10px;
+	padding:10px;
+	background-color:red;
+	color:white;
+	border:none;
+	border-radius:8px;
+}
